@@ -290,7 +290,7 @@ Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/davijaf/livro-receitas.git
 * [new branch]      master -> master
 
-#Resolvendo Conflitos:
+# Resolvendo Conflitos:
 
 david@DAVIJOSE MINGW64 /d/GitHub/Workspace
 $ cd livro-receitas/
