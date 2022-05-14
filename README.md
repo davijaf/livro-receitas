@@ -63,14 +63,14 @@ $ git commit -m "commit inicial"
 ## Verificar status do repositório: $ git status
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+    $ git status
 On branch master
 nothing to commit, working tree clean
 
 ## Movemos um arquivo para um novo diretório
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
@@ -86,7 +86,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ## Checando status do repositorio 
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
@@ -101,10 +101,10 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 ## Adicionar mudanças verificadas pelo GIT (Passando arquivos para Staged)
   /d/GitHub/Workspace/livro-receitas (master)
-$ git add strogonoff.md receitas/
+  $ git add strogonoff.md receitas/
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
@@ -114,13 +114,13 @@ Changes to be committed:
 ## Cria commit para segunda versão:
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git commit -m "Cria pasta receitas e move arquivos para diretorio criado"
+  $ git commit -m "Cria pasta receitas e move arquivos para diretorio criado"
 [master faa7c04] Cria pasta receitas e move arquivos para diretorio criado
  1 file changed, 0 insertions(+), 0 deletions(-)
  rename strogonoff.md => receitas/strogonoff.md (100%)
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 nothing to commit, working tree clean
 
@@ -129,11 +129,11 @@ nothing to commit, working tree clean
 $ echo > README.md
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ ls
+  $ ls
 README.md  receitas/
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -142,7 +142,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -151,12 +151,12 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git add *
+  $ git add *
 warning: LF will be replaced by CRLF in README.md.
 The file will have its original line endings in your working directory
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
@@ -164,13 +164,13 @@ Changes to be committed:
 
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git commit -m "Cria index Readme.md"                                          
+  $ git commit -m "Cria index Readme.md"                                          
 [master 1546c41] Cria index Redme.md
  1 file changed, 4 insertions(+)
  create mode 100644 README.md
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 nothing to commit, working tree clean
 
@@ -178,7 +178,7 @@ nothing to commit, working tree clean
 # UTILIZANDO O GITHUB
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git config --list
+  $ git config --list
 diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -204,13 +204,13 @@ core.ignorecase=true
 # REESCREVER CONFIGURAÇÕES:
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git config --global --unset user.email
+  $ git config --global --unset user.email
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git config --global --unset user.name
+  $ git config --global --unset user.name
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git config --list
+  $ git config --list
 diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -233,13 +233,13 @@ core.ignorecase=true
 
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git config --global user.email "davijose@gmail.com"
+  $ git config --global user.email "davijose@gmail.com"
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git config --global user.name davijaf
+  $ git config --global user.name davijaf
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git config --list
+  $ git config --list
 diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -268,19 +268,19 @@ https://github.com/davijaf/livro-receitas.git
 
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git remote add origin https://github.com/davijaf/livro-receitas.git
+  $ git remote add origin https://github.com/davijaf/livro-receitas.git
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git remote add origin https://github.com/davijaf/livro-receitas.git
+  $ git remote add origin https://github.com/davijaf/livro-receitas.git
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 nothing to commit, working tree clean
 
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git push origin master
+  $ git push origin master
 Enumerating objects: 8, done.
 Counting objects: 100% (8/8), done.
 Delta compression using up to 12 threads
@@ -293,29 +293,29 @@ To https://github.com/davijaf/livro-receitas.git
 # Resolvendo Conflitos:
 
   /d/GitHub/Workspace
-$ cd livro-receitas/
+  $ cd livro-receitas/
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 nothing to commit, working tree clean
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git remote add origin https://github.com/davijaf/livro-receitas.git
+  $ git remote add origin https://github.com/davijaf/livro-receitas.git
 error: remote origin already exists.
 
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ ls
+  $ ls
 README.md  receitas/
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 nothing to commit, working tree clean
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -325,24 +325,24 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git add *
+  $ git add *
 warning: LF will be replaced by CRLF in README.md.
 The file will have its original line endings in your working directory
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git commit -m "Adiciona dados da aula no Readme.md"
+  $ git commit -m "Adiciona dados da aula no Readme.md"
 [master f0984d9] Adiciona dados da aula no Readme.md
  1 file changed, 306 insertions(+), 4 deletions(-)
  rewrite README.md (100%)
 
   /d/GitHub/Workspace/livro-receitas (master)
-$ git status
+  $ git status
 On branch master
 nothing to commit, working tree clean
 
 ## ENVIAR A VERSÃO ATUALIZADA PARA REPOSITÓRIO
   /d/GitHub/Workspace/livro-receitas (master)
-$ git push origin master
+  $ git push origin master
 To https://github.com/davijaf/livro-receitas.git
  ! [rejected]        master -> master (fetch first)
 error: failed to push some refs to 'https://github.com/davijaf/livro-receitas.git'
@@ -355,7 +355,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 # BAIXAR A VERSÃO ATUALIZADA PARA REPOSITÓRIO
   /d/GitHub/Workspace/livro-receitas (master)
-$ git pull origin master
+  $ git pull origin master
 remote: Enumerating objects: 8, done.
 remote: Counting objects: 100% (8/8), done.
 remote: Compressing objects: 100% (6/6), done.
@@ -369,7 +369,7 @@ CONFLICT (content): Merge conflict in README.md
 Automatic merge failed; fix conflicts and then commit the result.
 
   /d/GitHub/Workspace/livro-receitas (master|MERGING)
-$ git status
+  $ git status
 On branch master
 You have unmerged paths.
   (fix conflicts and run "git commit")
@@ -382,15 +382,15 @@ Unmerged paths:
 no changes added to commit (use "git add" and/or "git commit -a")
 
   /d/GitHub/Workspace/livro-receitas (master|MERGING)
-$ git add *
+  $ git add *
 
   /d/GitHub/Workspace/livro-receitas (master|MERGING)
-$ git commit -m "resolve conflitos"
+  $ git commit -m "resolve conflitos"
 [master 0f5ea40] resolve conflitos
 
 ## Faz upload de sua versão para GitHub
   /d/GitHub/Workspace/livro-receitas (master)
-$ git push origin master
+  $ git push origin master
 Enumerating objects: 10, done.
 Counting objects: 100% (10/10), done.
 Delta compression using up to 12 threads
@@ -403,11 +403,11 @@ To https://github.com/davijaf/livro-receitas.git
 
 ## Verificar qual repositório está apontado no GitHub
   /d/GitHub/Workspace/livro-receitas (master)
-$ git remote -v
+  $ git remote -v
 origin  https://github.com/davijaf/livro-receitas.git (fetch)
 origin  https://github.com/davijaf/livro-receitas.git (push)
 
 ## Lista diretórios ocultos
-  /d/GitHub/Workspace/livro-receitas (master)
-$ ls -a
+  /d/GitHub/Workspace/livro-receitas (master
+  $ ls -a
 ./  ../  .git/  README.md  receitas/
