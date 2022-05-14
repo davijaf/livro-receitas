@@ -1,10 +1,10 @@
-#COMANDO COM GIT
+# COMANDO COM GIT
 
 - INICIAR O GIT
 - INICIAR O VERSIONAMENTO
 - CRIAR UM COMMIT
 
-#INICIAR O GIT
+# INICIAR O GIT
 
 git init 
 
@@ -40,18 +40,19 @@ MARKDOWN:
 ## Título 2
 ### Título 3
 #### Título 4
-#####… Título ……
+##### … Título ……
 
 
 david@DAVIJOSE MINGW64 /d/GitHub/Workspace/livro-receitas (master)
 $ ls
 strogonoff.md
 
-# Após criado o arquivo utilize o comando git add * para adicionar o arquivo:
+## Após criado o arquivo utilize o comando git add * para adicionar o arquivo:
 david@DAVIJOSE MINGW64 /d/GitHub/Workspace/livro-receitas (master)
 $ git add *
 
 ## Após adicionado o arquivo ao repositório crie o commit incluindo comentário:
+
 david@DAVIJOSE MINGW64 /d/GitHub/Workspace/livro-receitas (master)
 $ git commit -m "commit inicial"
 
@@ -66,7 +67,7 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 
-## Movemos um arquivo para um novo diretório:
+## Movemos um arquivo para um novo diretório
 
 david@DAVIJOSE MINGW64 /d/GitHub/Workspace/livro-receitas (master)
 $ git status
