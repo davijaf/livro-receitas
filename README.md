@@ -59,60 +59,6 @@ $ git commit -m "commit inicial"
  1 file changed, 25 insertions(+)
  create mode 100644 strogonoff.md
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Verificar status do repositório: $ git status
 
 david@DAVIJOSE MINGW64 /d/GitHub/Workspace/livro-receitas (master)
