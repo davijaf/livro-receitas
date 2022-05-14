@@ -59,7 +59,6 @@ $ git commit -m "commit inicial"
  1 file changed, 25 insertions(+)
  create mode 100644 strogonoff.md
 
-
 ## Verificar status do repositório: $ git status
 
 david@DAVIJOSE MINGW64 /d/GitHub/Workspace/livro-receitas (master)
@@ -288,6 +287,7 @@ Compressing objects: 100% (6/6), done.
 Writing objects: 100% (8/8), 1.10 KiB | 161.00 KiB/s, done.
 Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/davijaf/livro-receitas.git
+
 * [new branch]      master -> master
 
 #Resolvendo Conflitos:
@@ -303,4 +303,3 @@ nothing to commit, working tree clean
 david@DAVIJOSE MINGW64 /d/GitHub/Workspace/livro-receitas (master)
 $ git remote add origin https://github.com/davijaf/livro-receitas.git
 error: remote origin already exists.
-
